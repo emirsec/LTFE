@@ -4835,6 +4835,11 @@ glogg@^1.0.0:
   dependencies:
     sparkles "^1.0.0"
 
+google-libphonenumber@^3.2.3:
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/google-libphonenumber/-/google-libphonenumber-3.2.16.tgz#9c10f03f7d3c0493445f55d831284a0ed7135979"
+  integrity sha512-9Gzn78fJvCuNPYnbmUFFLhL0A4qBbSBs11+3cLKNuZX3lWKJ+1pSVS0C2bq0Yjq00cW2e8LZkHAxl+MQRGxGWA==
+
 graceful-fs@^4.0.0, graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
@@ -6933,6 +6938,13 @@ ngx-image-cropper@^3.1.4:
     tslib "^1.9.0"
   optionalDependencies:
     hammerjs "^2.0.8"
+
+ngx-intl-tel-input@^2.3.1:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/ngx-intl-tel-input/-/ngx-intl-tel-input-2.5.4.tgz#2294db9593f7498d6eaf5c9f23b6d2ef7e2c1721"
+  integrity sha512-UWXqidQ5qn4IQEWqyMKPjHQp1nU/wk3aK2SYtAbMyOXinaJa2sGaOdkaj0GIOnBYAwJ+EQG7o493LQyE0rAIHg==
+  dependencies:
+    tslib "^1.10.0"
 
 ngx-perfect-scrollbar@^9.0.0:
   version "9.0.0"

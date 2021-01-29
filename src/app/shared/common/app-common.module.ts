@@ -50,6 +50,29 @@ import { AutoCompleteModule } from 'primeng/autocomplete';
 import { PasswordInputWithShowButtonComponent } from './password-input-with-show-button/password-input-with-show-button.component';
 import { KeyValueListManagerComponent } from './key-value-list-manager/key-value-list-manager.component';
 import { SubHeaderComponent } from '@app/shared/common/sub-header/sub-header.component';
+import { CommonHeaderComponent } from './ui-components/common-header/common-header.component';
+import { FormHeaderComponent } from './ui-components/form-header/form-header.component';
+import { IntlTelInputComponent } from './ui-components/intl-tel-input/intl-tel-input.component';
+import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+
+import { AddEditIncidentComponent } from './component/incidents/add-edit-incident/add-edit-incident.component';
+import { GridViewIncidentComponent } from './component/incidents/grid-view-incident/grid-view-incident.component';
+import { IncidentModalComponent } from './component/incidents/incident-modal/incident-modal.component';
+
+import { EditorModule } from 'primeng/editor';
+import { InputMaskModule } from 'primeng/inputmask';
+import { TreeModule } from 'primeng/tree';
+import { ContextMenuModule } from 'primeng/contextmenu';
+import { DialogModule } from 'primeng/dialog';
+import { CheckboxModule } from 'primeng/checkbox';
+import { AccordionModule } from 'primeng/accordion';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { InputSwitchModule } from 'primeng/inputswitch';
+import { TooltipModule } from 'primeng/tooltip';
+import { TabViewModule } from 'primeng/tabview';
+import { CalendarModule } from 'primeng/calendar';
+import { FileUploadModule } from 'primeng/fileupload';
+import { RadioButtonModule } from 'primeng/radiobutton';
 
 @NgModule({
     imports: [
@@ -72,7 +95,22 @@ import { SubHeaderComponent } from '@app/shared/common/sub-header/sub-header.com
         PerfectScrollbarModule,
         CountoModule,
         AppBsModalModule,
-        AutoCompleteModule
+        AutoCompleteModule,
+        NgxIntlTelInputModule,
+        EditorModule,
+        InputMaskModule,
+        TreeModule,
+        ContextMenuModule,
+        CheckboxModule,
+        DialogModule,
+        AccordionModule,
+        MultiSelectModule,
+        InputSwitchModule,
+        TooltipModule,
+        TabViewModule,
+        CalendarModule,
+        FileUploadModule,
+        RadioButtonModule
     ],
     declarations: [
         TimeZoneComboComponent,
@@ -102,7 +140,13 @@ import { SubHeaderComponent } from '@app/shared/common/sub-header/sub-header.com
         MultipleSelectComboboxInputTypeComponent,
         PasswordInputWithShowButtonComponent,
         KeyValueListManagerComponent,
-        SubHeaderComponent
+        SubHeaderComponent,
+        CommonHeaderComponent,
+        FormHeaderComponent,
+        IntlTelInputComponent,
+        AddEditIncidentComponent,
+        GridViewIncidentComponent,
+        IncidentModalComponent
     ],
     exports: [
         TimeZoneComboComponent,
@@ -114,7 +158,12 @@ import { SubHeaderComponent } from '@app/shared/common/sub-header/sub-header.com
         CustomizableDashboardComponent,
         PasswordInputWithShowButtonComponent,
         KeyValueListManagerComponent,
-        SubHeaderComponent
+        SubHeaderComponent,
+        CommonHeaderComponent,
+        IntlTelInputComponent,
+        AddEditIncidentComponent,
+        GridViewIncidentComponent,
+        IncidentModalComponent,
     ],
     providers: [
         DateTimeService,
